@@ -1,0 +1,168 @@
+@page {
+    size: A4;
+    margin: 20mm;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    color: #000000;
+}
+
+.container {
+    max-width: 210mm;
+    margin: 0 auto;
+    padding: 20mm;
+    background: #ffffff;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: bold;
+    color: #000000;
+}
+
+header h2 {
+    margin: 10px 0;
+    font-size: 24px;
+    color: #333333;
+}
+
+header p {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #555555;
+}
+
+.contact-info {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #555555;
+}
+
+.contact-info p {
+    margin: 2px 0;
+}
+
+.contact-info a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-column {
+    width: 52%;
+}
+
+.right-column {
+    width: 46%;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h3 {
+    border-bottom: 2px solid #000000;
+    padding-bottom: 5px;
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.education, .projects {
+    margin: 10px 0;
+}
+
+.education div, .projects div {
+    margin-bottom: 15px;
+}
+
+.education h4, .projects h4 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.education p, .projects p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #555555;
+}
+
+.projects ul {
+    margin: 5px 0;
+    padding-left: 20px;
+}
+
+.projects ul li {
+    font-size: 14px;
+    color: #555555;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills div {
+    background: #f0f0f0;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #555555;
+}
+
+.languages p, .interests p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #555555;
+}
+
+.certificates ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.certificates li {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #555555;
+}
+
+.certificates a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.certificates a:hover {
+    text-decoration: underline;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
